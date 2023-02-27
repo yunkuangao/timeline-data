@@ -56,7 +56,7 @@ publishing {
     publications {
         create<MavenPublication>("maven") {
             groupId = project.group.toString()
-            artifactId = "tool"
+            artifactId = "timeline-data"
             version = System.getenv("VERSION")
             from(components["java"])
         }
