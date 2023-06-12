@@ -30,10 +30,10 @@ repositories {
 
 dependencies {
 
-    implementation("org.jetbrains.kotlin", "kotlin-stdlib", "1.7.20")
+    implementation("org.jetbrains.kotlin", "kotlin-stdlib", "1.8.21")
 
     // test
-    testImplementation("org.jetbrains.kotlin", "kotlin-test", "1.7.20")
+    testImplementation("org.jetbrains.kotlin", "kotlin-test", "1.8.21")
 
 }
 
